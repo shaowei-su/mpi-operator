@@ -480,6 +480,6 @@ spec:
         - -alsologtostderr
         - --lock-namespace
         - mpi-operator
-        image: mpioperator/mpi-operator:latest
+        image: 172631448019.dkr.ecr.us-east-1.amazonaws.com/ml-docker-images-staging-custom/horovod-cpu:0.2_mpi_operator
         name: mpi-operator
       serviceAccountName: mpi-operator
